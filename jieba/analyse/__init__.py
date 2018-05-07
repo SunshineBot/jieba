@@ -10,6 +10,7 @@ default_tfidf = TFIDF()
 default_textrank = TextRank()
 
 extract_tags = tfidf = default_tfidf.extract_tags
+extract_tags_no_seg = default_tfidf.extract_tags_no_seg
 set_idf_path = default_tfidf.set_idf_path
 textrank = default_textrank.extract_tags
 
